@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	background-color: #f2f2ff;
+}
+
+.header{
+	padding-top: 15px;
+	padding-bottom: 7px;
+
+}
+
+.header h1{
+	text-align: center;
+}
+
+.content{
+	align-content: center;
+	margin: auto;
+    width: 50%;
+}
+button{
+	margin-top: 7px;
+}
+footer{
+	display: inline-block;
+	text-align: center;
+    background-color: #f2f2ff;
+    color: #fff;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.social{
+	display: inline-flex;
+	width: fit-content;
+
+}
