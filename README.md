@@ -1,3 +1,7 @@
+##rode o comando para instalar as dependencias 
+```
+composer install
+```
 
 ## Tabela do banco de dados
 
