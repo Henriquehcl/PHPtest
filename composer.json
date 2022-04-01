@@ -1,0 +1,16 @@
+{
+    "name": "henriquehcl/consultacep",
+    "autoload":{
+      "psr-4":{
+        "App\\":"app/"
+      }
+    },
+    "description": "Sistema de consultar CEP em PHP",
+    "authors": [
+        {
+            "name": "Henrique Lima",
+            "email": "henriquehcl@hotmail.com"
+        }
+    ],
+    "require": {}
+}

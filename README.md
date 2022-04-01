@@ -1,26 +1,23 @@
-# PHPtest
+##rode o comando para instalar as dependencias 
+```
+composer install
+```
 
-Teste de seleção para vaga PHP
+## Tabela do banco de dados
 
-## Faça um fork desse projeto e siga as intruções a seguir utilizando esse projeto.
+```
+CREATE TABLE `endereco` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `cep` varchar(9),
+  `logradouro` varchar(255),
+  `bairro` varchar(255),
+  `localidade` varchar(255),
+  `uf` varchar(2),
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `cep` (`cep`)
+) ENGINE=InnoDB;
+```
 
-Construir uma aplicação web para buscar endereço. Aplicação deve fazer uma chamada na API via cep : https://viacep.com.br/.
-Premissas:
-
-  ● Usar PHP 5.6 ou superior.
-  
-  ● Usar Bootstrap.
-  
-  ● JavaScript (Não usar framework).
-  
-  ● Retorno deve ser em xml.
-  
-  ● Salvar os dados em uma base e antes de uma nova consulta verificar se o cep já foi consultado, caso tenha sido, trazer    informação da base e não deve efetuar uma nova consulta.
-  
-  ● Tratar o erro. Dar um retorno amigável para usuário leigo.
-  
-  
-## PS: Valorizamos a criatividade no layout.
-
-# Entrega: 
- * Disponibilizar um link do repositório no GitHub e encaminhar para developer@cd2.com.br
+### tive um problema para rodar parte do script em função de permissão do meu linux
+### Esse link pode te ajudar, caso tenha o mesmo problema
+### https://stackoverflow.com/questions/48845039/fixing-error-with-file-get-contents-permission-denied
