@@ -1,4 +1,8 @@
-##rode o comando para instalar as dependencias 
+# Sistema para fazer busca no Via CEP.
+### Priemiro Verifica se o CEP esta no banco de dados MySQL, se estiver exibe as informações
+### caso não esteja, busca no Via CEP e salva no banco de dados
+
+## rode o comando para instalar as dependencias 
 ```
 composer install
 ```
